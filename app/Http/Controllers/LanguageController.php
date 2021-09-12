@@ -9,7 +9,7 @@ class LanguageController extends Controller
 {
     public function index()
     {
-        $languages = ['HTML', 'CSS', 'JavaScript', 'PHP'];
+        $languages = ['HTML', 'CSS', 'JavaScript', 'PHP', 'Python'];
         $data = [
             'languages' => $languages,
         ];
